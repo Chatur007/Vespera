@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
 
@@ -37,10 +38,14 @@ export function Navigation() {
         <div className="container mx-auto px-6 lg:px-12">
           <nav className="flex items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="group">
-              <span className="font-serif text-2xl md:text-3xl tracking-luxury text-ivory">
-                VESPERA
-              </span>
+            <Link href="/" className="group flex items-center">
+              <Image
+                src="/images/vespera-logo.png"
+                alt="Vespera Logo"
+                width={200}
+                height={50}
+                className="object-contain"
+              />
             </Link>
 
             {/* Desktop Navigation */}
