@@ -120,9 +120,9 @@ export function AboutContent() {
                 <div>
                   <FadeIn delay={0.2}>
                     <h2 className="font-serif text-4xl md:text-5xl text-ivory leading-tight mb-2">
-                      ALLI
+                      Adityeshwar Mallare
                     </h2>
-                    <p className="text-sm tracking-wide text-gold mb-6">Founder</p>
+                    <p className="text-sm tracking-wide text-gold mb-6">Founder and CEO</p>
                   </FadeIn>
                   <GoldDivider className="w-24 mb-8" />
                   <FadeIn delay={0.3}>
@@ -143,13 +143,13 @@ export function AboutContent() {
                   </FadeIn>
                 </div>
 
-                {/* Aditya - Co-Founder */}
+                {/* Co-Founder */}
                 <div>
                   <FadeIn delay={0.2}>
                     <h2 className="font-serif text-4xl md:text-5xl text-ivory leading-tight mb-2">
-                      Aditya
+                      Ali Patel
                     </h2>
-                    <p className="text-sm tracking-wide text-gold mb-6">Co-Founder</p>
+                    <p className="text-sm tracking-wide text-gold mb-6">Co Founder and COO</p>
                   </FadeIn>
                   <GoldDivider className="w-24 mb-8" />
                   <FadeIn delay={0.3}>
