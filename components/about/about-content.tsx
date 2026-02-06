@@ -110,32 +110,65 @@ export function AboutContent() {
 
             <div>
               <FadeIn>
-                <p className="text-xs tracking-ultra uppercase text-gold mb-6">
-                  The Founder
+                <p className="text-xs tracking-ultra uppercase text-gold mb-12">
+                  The Founders
                 </p>
               </FadeIn>
-              <FadeIn delay={0.2}>
-                <h2 className="font-serif text-4xl md:text-5xl text-ivory leading-tight mb-8">
-                  Isabelle Mercier
-                </h2>
-              </FadeIn>
-              <GoldDivider className="w-24 mb-8" />
-              <FadeIn delay={0.3}>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  Raised among the jasmine fields of Grasse, Isabelle inherited her grandmother's 
-                  gift for discerning the subtlest nuances in nature's most precious essences. 
-                  After apprenticing with the legendary houses of France, she founded VESPERA 
-                  with a singular vision: to create fragrances that transcend trends and touch 
-                  the soul.
-                </p>
-              </FadeIn>
-              <FadeIn delay={0.4}>
-                <p className="text-muted-foreground leading-relaxed mb-8">
-                  Today, her philosophy guides every creation that emerges from our atelier—
-                  a commitment to authenticity, artistry, and the belief that a truly exceptional 
-                  fragrance should be both an intimate pleasure and a timeless legacy.
-                </p>
-              </FadeIn>
+              
+              <div className="space-y-16 mb-12">
+                {/* ALLI - Founder */}
+                <div>
+                  <FadeIn delay={0.2}>
+                    <h2 className="font-serif text-4xl md:text-5xl text-ivory leading-tight mb-2">
+                      ALLI
+                    </h2>
+                    <p className="text-sm tracking-wide text-gold mb-6">Founder</p>
+                  </FadeIn>
+                  <GoldDivider className="w-24 mb-8" />
+                  <FadeIn delay={0.3}>
+                    <p className="text-muted-foreground leading-relaxed mb-6">
+                      Raised among the jasmine fields of Grasse, ALLI inherited her grandmother's 
+                      gift for discerning the subtlest nuances in nature's most precious essences. 
+                      After apprenticing with the legendary houses of France, she founded VESPERA 
+                      with a singular vision: to create fragrances that transcend trends and touch 
+                      the soul.
+                    </p>
+                  </FadeIn>
+                  <FadeIn delay={0.4}>
+                    <p className="text-muted-foreground leading-relaxed">
+                      Today, her philosophy guides every creation that emerges from our atelier—
+                      a commitment to authenticity, artistry, and the belief that a truly exceptional 
+                      fragrance should be both an intimate pleasure and a timeless legacy.
+                    </p>
+                  </FadeIn>
+                </div>
+
+                {/* Aditya - Co-Founder */}
+                <div>
+                  <FadeIn delay={0.2}>
+                    <h2 className="font-serif text-4xl md:text-5xl text-ivory leading-tight mb-2">
+                      Aditya
+                    </h2>
+                    <p className="text-sm tracking-wide text-gold mb-6">Co-Founder</p>
+                  </FadeIn>
+                  <GoldDivider className="w-24 mb-8" />
+                  <FadeIn delay={0.3}>
+                    <p className="text-muted-foreground leading-relaxed mb-6">
+                      Aditya brings visionary expertise and innovative thinking to VESPERA, 
+                      working alongside ALLI to shape the brand's evolution. With a deep 
+                      commitment to excellence and authenticity, he co-leads the atelier with 
+                      a modern perspective.
+                    </p>
+                  </FadeIn>
+                  <FadeIn delay={0.4}>
+                    <p className="text-muted-foreground leading-relaxed">
+                      Together with ALLI, Aditya ensures that VESPERA continues to honor 
+                      timeless traditions while embracing contemporary innovation in haute parfumerie.
+                    </p>
+                  </FadeIn>
+                </div>
+              </div>
+
               <FadeIn delay={0.5}>
                 <blockquote className="border-l-2 border-gold pl-6">
                   <p className="font-serif text-xl text-ivory italic">
@@ -185,7 +218,7 @@ export function AboutContent() {
       </section>
 
       {/* Timeline */}
-      <section className="py-24 md:py-32 bg-background">
+      {/* <section className="py-24 md:py-32 bg-background">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
             <FadeIn>
@@ -220,7 +253,7 @@ export function AboutContent() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="py-24 md:py-32 bg-charcoal">

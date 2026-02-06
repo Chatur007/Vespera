@@ -121,13 +121,13 @@ export function ContactContent() {
                     <div>
                       <h3 className="font-serif text-lg text-ivory mb-1">Phone</h3>
                       <a href="tel:+33493362180" className="text-muted-foreground hover:text-gold transition-colors duration-300">
-                        +33 4 93 36 21 80
+                        +91 8618601526
                       </a>
                     </div>
                   </div>
                 </FadeIn>
 
-                <FadeIn delay={0.6}>
+                {/* <FadeIn delay={0.6}>
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center">
                       <Clock className="w-5 h-5 text-gold" />
@@ -141,7 +141,7 @@ export function ContactContent() {
                       </p>
                     </div>
                   </div>
-                </FadeIn>
+                </FadeIn> */}
               </div>
             </div>
 
@@ -245,7 +245,7 @@ export function ContactContent() {
       </section>
 
       {/* Map Section Placeholder */}
-      <section className="h-[400px] relative">
+      {/* <section className="h-[400px] relative">
         <Image
           src="/images/grasse-map.jpg"
           alt="Grasse, France"
@@ -259,7 +259,7 @@ export function ContactContent() {
             <p className="text-sm text-ivory/70 mt-1">The Perfume Capital of the World</p>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

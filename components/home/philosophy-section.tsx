@@ -13,7 +13,7 @@ export function PhilosophySection() {
             <Parallax speed={-0.2}>
               <div className="relative aspect-[4/5] overflow-hidden">
                 <Image
-                  src="/images/atelier.jpg"
+                  src="/images/Perfume-5.jpg"
                   alt="VESPERA Atelier"
                   fill
                   className="object-cover"

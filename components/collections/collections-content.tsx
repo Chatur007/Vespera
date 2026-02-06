@@ -5,13 +5,13 @@ import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { FadeIn, StaggerContainer, StaggerItem, GoldDivider } from "@/components/scroll-animations"
 
-const categories = ["All", "Signature", "Limited Edition", "Exclusive"]
+const categories = ["All", "Men", "Female", "Signature"]
 
 const perfumes = [
   {
     id: 1,
     name: "Noir Éternel",
-    category: "Signature",
+    category: "Men",
     description: "A captivating blend of oud, black amber, and midnight jasmine that evokes the mystery of twilight.",
     notes: { top: "Bergamot, Pink Pepper", heart: "Jasmine, Oud", base: "Black Amber, Musk" },
     price: "€380",
@@ -20,7 +20,7 @@ const perfumes = [
   {
     id: 2,
     name: "Lumière d'Or",
-    category: "Signature",
+    category: "Men",
     description: "Golden saffron intertwined with silk orchid and sandalwood creates an aura of luminous warmth.",
     notes: { top: "Saffron, Cardamom", heart: "Orchid, Iris", base: "Sandalwood, Vanilla" },
     price: "€420",
@@ -29,7 +29,7 @@ const perfumes = [
   {
     id: 3,
     name: "Velours Nocturne",
-    category: "Signature",
+    category: "Men",
     description: "Velvety rose absolute embraced by smoky incense and vanilla whispers of romantic evenings.",
     notes: { top: "Rose, Raspberry", heart: "Incense, Violet", base: "Vanilla, Benzoin" },
     price: "€395",
@@ -38,7 +38,7 @@ const perfumes = [
   {
     id: 4,
     name: "Éclipse Rare",
-    category: "Limited Edition",
+    category: "Female",
     description: "A rare alignment of precious woods and ethereal white flowers, crafted for the celestial collector.",
     notes: { top: "Aldehydes, Neroli", heart: "Tuberose, Gardenia", base: "Agarwood, Ambergris" },
     price: "€680",
@@ -47,7 +47,7 @@ const perfumes = [
   {
     id: 5,
     name: "Ombre Sacrée",
-    category: "Limited Edition",
+    category: "Female",
     description: "Sacred temple incense meets Mediterranean citrus in this transcendent limited creation.",
     notes: { top: "Citron, Mandarin", heart: "Frankincense, Myrrh", base: "Cypriol, Vetiver" },
     price: "€590",
@@ -56,7 +56,7 @@ const perfumes = [
   {
     id: 6,
     name: "Maison Privée",
-    category: "Exclusive",
+    category: "Signature",
     description: "Available by appointment only. A bespoke fragrance experience for the distinguished patron.",
     notes: { top: "Custom Selection", heart: "Master Blend", base: "Signature Accord" },
     price: "Upon Request",

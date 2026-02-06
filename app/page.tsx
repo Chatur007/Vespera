@@ -10,7 +10,6 @@ export default function HomePage() {
       <HeroSection />
       <FeaturedCollection />
       <PhilosophySection />
-      <CinematicSection />
       <CTASection />
     </>
   )
