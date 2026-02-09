@@ -37,7 +37,7 @@ export function HeroSection() {
           transition={{ duration: 1.2, delay: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
           className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-9xl tracking-luxury text-ivory mb-6"
         >
-          VESPERA
+          VESPERRA
         </motion.h1>
 
         {/* Subtitle */}

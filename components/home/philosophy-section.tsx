@@ -2,6 +2,7 @@
 
 import { FadeIn, TextReveal, GoldDivider, Parallax } from "@/components/scroll-animations"
 import Image from "next/image"
+import imgSrc from "@/public/images/perfume-5.jpg";
 
 export function PhilosophySection() {
   return (
@@ -13,7 +14,7 @@ export function PhilosophySection() {
             <Parallax speed={-0.2}>
               <div className="relative aspect-[4/5] overflow-hidden">
                 <Image
-                  src="/images/Perfume-5.jpg"
+                  src= {imgSrc}
                   alt="VESPERA Atelier"
                   fill
                   className="object-cover"
@@ -46,8 +47,7 @@ export function PhilosophySection() {
               <p className="text-muted-foreground leading-relaxed mb-6">
                 At VESPERA, we believe that a fragrance is more than a scent—it is an 
                 invisible signature, a silent companion through life's most precious 
-                moments. Each creation emerges from our atelier in Grasse, where 
-                master perfumers blend centuries-old traditions with contemporary artistry.
+                moments. 
               </p>
             </FadeIn>
 
@@ -66,7 +66,7 @@ export function PhilosophySection() {
                   "Every fragrance tells a story waiting to be worn."
                 </p>
                 <cite className="text-xs tracking-wider text-gold/70 mt-4 block not-italic">
-                  — Isabelle Mercier, Founder
+                  — Founder And Co-Founder,Vesperra
                 </cite>
               </blockquote>
             </FadeIn>

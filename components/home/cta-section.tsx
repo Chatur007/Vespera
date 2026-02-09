@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 export function CTASection() {
   return (
-    <section className="py-32 md:py-48 bg-background relative overflow-hidden">
+    <section className="py-25 md:py-32 bg-background relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-gold/5 rounded-full blur-3xl" />
