@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 export function CTASection() {
   return (
-    <section className="py-25 md:py-32 bg-background relative overflow-hidden">
+    <section className="py-15 md:py-20 bg-background relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-gold/5 rounded-full blur-3xl" />
@@ -53,7 +53,7 @@ export function CTASection() {
             </div>
           </FadeIn>
 
-          {/* Decorative bottom element */}
+          {/* Decorative bottom element
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -62,7 +62,7 @@ export function CTASection() {
             className="mt-24"
           >
             <span className="font-serif text-6xl md:text-8xl text-ivory/5">V</span>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
